@@ -1,3 +1,4 @@
+%define _empty_manifest_terminate_build 0
 Name:           libre-graph-api-cpp-qt-client
 Version:        1.0.1
 Release:        1
