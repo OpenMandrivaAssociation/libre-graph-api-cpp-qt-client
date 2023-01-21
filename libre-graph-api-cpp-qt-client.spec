@@ -29,3 +29,6 @@ pushd client
 %make_install -C build
 
 %files
+%{_includedir}/OpenAPI/
+%{_prefix}/lib/cmake/
+%{_prefix}/lib/libLibreGraphAPI.a
