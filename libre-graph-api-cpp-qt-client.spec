@@ -31,5 +31,5 @@ pushd client
 
 %files
 %{_includedir}/OpenAPI/
-%{_prefix}/lib/cmake/
-%{_prefix}/lib/libLibreGraphAPI.a
+#{_prefix}/lib/cmake/
+#{_prefix}/lib/libLibreGraphAPI.a
