@@ -1,7 +1,7 @@
 %define _empty_manifest_terminate_build 0
 Name:           libre-graph-api-cpp-qt-client
-Version:        1.0.1
-Release:        2
+Version:        1.0.4
+Release:        1
 Summary:        Libre Graph Cloud Collaboration API
 License:        Apache-2.0
 URL:            https://owncloud.dev/libre-graph-api/
