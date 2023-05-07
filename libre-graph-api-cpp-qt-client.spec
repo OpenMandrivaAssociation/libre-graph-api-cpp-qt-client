@@ -9,6 +9,7 @@ Source:         https://github.com/owncloud/libre-graph-api-cpp-qt-client/archiv
 
 BuildRequires:  cmake
 BuildRequires:  qt5-qtbase-devel
+BuildRequires:  pkgconfig(zlib)
 
 %description
 Libre Graph API
