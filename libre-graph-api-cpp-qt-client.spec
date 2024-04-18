@@ -7,14 +7,16 @@
 
 Name:           libre-graph-api-cpp-qt-client
 Version:        1.0.4
-Release:        1
+Release:        2
 Summary:        Libre Graph Cloud Collaboration API
 License:        Apache-2.0
 URL:            https://owncloud.dev/libre-graph-api/
 Source:         https://github.com/owncloud/libre-graph-api-cpp-qt-client/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
-BuildRequires:  qt5-qtbase-devel
+BuildRequires:  cmake(Qt6Core)
+BuildRequires:  cmake(Qt6Gui)
+BuildRequires:  cmake(Qt6Network)
 BuildRequires:  pkgconfig(zlib)
 
 %description
